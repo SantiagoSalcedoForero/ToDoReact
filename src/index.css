@@ -1,13 +1,27 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --main-font: "Work Sans", sans-serif;
+  --backgorund-color: #352F44;
+  --primary-color: #B9B4C7;
+  --font-color: #FAF0E6;
+  --secundary-color: #5C5470;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: var(--main-font);
+  background-color: var(--backgorund-color);
+  color: var(--font-color);
+  width: 100%;
+  height: 100vh;
+  padding: 3rem;
+}
+
+#root {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
 }
