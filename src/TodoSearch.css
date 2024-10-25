@@ -4,6 +4,7 @@
     border: 4px solid var(--primary-color);
     margin: 0;
     align-self: center;
+    min-height: 64px;
     height: 64px;
     width: calc(100% - 60px);
     padding-left: 20px;
