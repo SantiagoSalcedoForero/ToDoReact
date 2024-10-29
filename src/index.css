@@ -10,6 +10,8 @@
 
 body {
   box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
   margin: 0;
   font-family: var(--main-font);
   background-color: var(--backgorund-color);
@@ -24,4 +26,5 @@ body {
   justify-content: space-between;
   align-items: flex-start;
   height: 100%;
+  width: 55%;
 }
