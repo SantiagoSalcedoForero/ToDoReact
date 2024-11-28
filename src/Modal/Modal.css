@@ -1,4 +1,6 @@
 .ModalBackground {
     display: flex;
-    border: 1px solid #b51a1a;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 20px;
 }

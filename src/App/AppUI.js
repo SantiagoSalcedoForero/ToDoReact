@@ -11,6 +11,7 @@ import { YourTask } from '../YourTask';
 import { TituloTask } from '../TituloTask'
 import { Modal } from '../Modal';
 import { TodoContext } from '../TodoContext';
+import { TodoForm } from '../TodoForm'
 
 function AppUI() {
     const {
@@ -59,7 +60,7 @@ function AppUI() {
 
             {openModal && (
                 <Modal>
-                    La funcionalidad de agregar TODO
+                    <TodoForm />
                 </Modal>
             )}
         </>

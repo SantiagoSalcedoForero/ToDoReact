@@ -1,0 +1,65 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+label {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center; 
+    color: var(--primary-color);   
+}
+
+textarea {
+    border-radius: 10px;
+    height: 90px;
+    padding: 5px 0 0 10px;
+    border: 2px solid var(--primary-color);
+    font-family: var(--main-font);
+    color: var(--secundary-color);
+}
+
+textarea::placeholder {
+    color: var(--primary-color);
+}
+
+textarea:focus {
+    outline-color: var(--secundary-color);
+}
+
+.TodoForm-buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.TodoForm-button {
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: var(--main-font);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.TodoForm-button:hover {
+    border: none;
+    background-color: var(--font-color);
+    color: var(--secundary-color);
+}
+
+.TodoForm-button--add{
+    background-color: var(--primary-color);
+    color: var(--backgorund-color);
+}
+
+.TodoForm-button--cancel {
+    border: 2px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+}
