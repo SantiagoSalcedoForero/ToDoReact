@@ -5,12 +5,15 @@
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.3.0",
+    "react-router-dom": "^7.0.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -29,5 +32,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "homepage": "https://SantiagoSalcedoForero.github.io/ToDoReact",
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }
