@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SantiagoSalcedoForero/ToDoReact/static/css/main.b48e36ae.css",
+    "main.js": "/SantiagoSalcedoForero/ToDoReact/static/js/main.0a7d2679.js",
+    "index.html": "/SantiagoSalcedoForero/ToDoReact/index.html",
+    "main.b48e36ae.css.map": "/SantiagoSalcedoForero/ToDoReact/static/css/main.b48e36ae.css.map",
+    "main.0a7d2679.js.map": "/SantiagoSalcedoForero/ToDoReact/static/js/main.0a7d2679.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b48e36ae.css",
+    "static/js/main.0a7d2679.js"
+  ]
+}
