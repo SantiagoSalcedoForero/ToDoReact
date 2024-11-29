@@ -1,75 +1,41 @@
-# Repositorio base del Curso de Introducción a React.js en Platzi
+# Repositorio del primer curso que tome de React
 
-¡Hola, Platzinauta!
+# ToDoReact
 
-En este repositorio encontrarás el código de todas las clases del [Curso de Introducción a React.js](https://platzi.com/reactjs). Para empezar solo debes clonar este repositorio (`git clone`), instalar sus dependencias (`npm i`) y ejecutar la aplicación (`npm start`).
+Este repositorio contiene el proyecto desarrollado durante el **primer curso de
+React** en [Platzi](https://platzi.com/). Es una aplicación básica de lista de
+tareas (To-Do) diseñada para aprender los fundamentos de React, incluyendo el
+uso de componentes, hooks y la gestión de estado.
 
-La rama principal contiene el código con el que eempezamos el curso. En las demás ramas encontrarás el código de las siguientes clases y finalmente el deploy de la aplicación.
+## 🚀 Tecnologías utilizadas
 
-¡Mucha suerte aprendiendo React! #NuncaParesDeAprender
+Este proyecto utiliza las siguientes tecnologías:
 
-## Getting Started with Create React App
+- **React**: Librería de JavaScript para construir interfaces de usuario.
+- **React DOM**: Para renderizar los componentes en el navegador.
+- **React Icons**: Para agregar íconos personalizados.
+- **gh-pages**: Para desplegar la aplicación en GitHub Pages.
+- **CSS**: Para estilos básicos de la aplicación.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🧑‍💻 Características de la aplicación
 
-## Available Scripts
+- **Lista de tareas dinámica**: Agrega, elimina y marca tareas como completadas.
+- **Almacenamiento local**: Usa `localStorage` para guardar las tareas.
+- **Componentes reutilizables**: Organización modular del código.
+- **Despliegue en GitHub Pages**: Acceso fácil a la versión en vivo de la
+  aplicación.
 
-In the project directory, you can run:
+## 🌐 Despliegue
 
-### `npm start`
+La aplicación está desplegada en GitHub Pages y puede accederse desde:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[https://santiagosalcedoforero.github.io/ToDoReact](https://santiagosalcedoforero.github.io/ToDoReact)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚙️ Instalación y uso
 
-### `npm run build`
+Sigue estos pasos para clonar y ejecutar el proyecto localmente:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/SantiagoSalcedoForero/ToDoReact.git
+   ```
